@@ -1,0 +1,12 @@
+{
+    "verbose": "true",
+    "ignore":[
+        "node_modules/**/node_modules"
+    ],
+    "watch":[
+        "Source/*"
+    ],
+    "exec":"node Source/app.js",
+    "legacyWatch": true,
+    "ext": "js"
+}
