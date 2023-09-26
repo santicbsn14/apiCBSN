@@ -22,7 +22,7 @@ class AppExpress
         this.app.use(express.json())
         this.app.use(express.urlencoded({extended:true}))
         this.app.use(cors({credentials:true,
-            origin: 'http://localhost:5173'}))
+            origin: 'https://apicbsn-odvs-dev.fl0.io/'}))
         this.app.use(cookieParser())
     }
 
