@@ -14,7 +14,7 @@ const transport = nodemailer.createTransport({
     }
 })
 
-const templatePath= resolve('source/Presentation/Templates/forgotpassword.hbs')
+const templatePath= resolve('Source/Presentation/Templates/forgotpassword.hbs')
 const source = fs.readFileSync(templatePath).toString()
 const template = Handlebars.compile(source)
 export const mailForGetPassword = (userEmail, urlConfirmationToken) => {
