@@ -22,7 +22,7 @@ class AppExpress
         this.app.use(express.json())
         this.app.use(express.urlencoded({extended:true}))
         this.app.use(cors({credentials:true,
-            origin: 'https://apicbsn-odvs-dev.fl0.io/'}))
+            origin: 'https://proyect-web-cbsn.vercel.app'}))
         this.app.use(cookieParser())
     }
 
